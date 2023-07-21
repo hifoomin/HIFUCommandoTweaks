@@ -1,7 +1,7 @@
 ﻿using RoR2;
 using RoR2.Skills;
 
-namespace HCT.Skills
+namespace HIFUCommandoTweaks.Skills
 {
     public class TacticalDive : TweakBase
     {

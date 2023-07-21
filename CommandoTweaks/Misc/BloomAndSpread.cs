@@ -1,4 +1,4 @@
-﻿namespace HCT.Misc
+﻿namespace HIFUCommandoTweaks.Misc
 {
     public class BloomAndSpread : MiscBase
     {

@@ -2,7 +2,7 @@
 using RoR2.Projectile;
 using UnityEngine;
 
-namespace HCT.Skills
+namespace HIFUCommandoTweaks.Skills
 {
     public class FragGrenade : TweakBase
     {

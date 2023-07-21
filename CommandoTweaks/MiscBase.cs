@@ -1,4 +1,4 @@
-﻿namespace HCT
+﻿namespace HIFUCommandoTweaks
 {
     public abstract class MiscBase
     {
@@ -7,7 +7,9 @@
 
         public T ConfigOption<T>(T value, string name, string description)
         {
-            return Main.HCTConfig.Bind<T>(Name, name, value, description).Value;
+            var config = Main.HCTConfig.Bind<T>(Name, name, value, description);
+            ConfigManager.HandleConfig<T>(config, Main.HCTBackupConfig, name);
+            return config.Value;
         }
 
         public abstract void Hooks();

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HCT
+namespace HIFUCommandoTweaks
 {
     public abstract class TweakBase<T> : TweakBase where T : TweakBase<T>
     {

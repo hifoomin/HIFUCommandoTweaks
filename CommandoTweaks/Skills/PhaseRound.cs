@@ -3,7 +3,7 @@ using RoR2.Skills;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-namespace HCT.Skills
+namespace HIFUCommandoTweaks.Skills
 {
     public class PhaseRound : TweakBase
     {
