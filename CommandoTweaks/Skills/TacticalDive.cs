@@ -18,7 +18,7 @@ namespace HIFUCommandoTweaks.Skills
         public override string SkillToken => "utility";
 
         public override string DescText => "<style=cIsUtility>Roll</style> a" +
-                                           (InitialSpeedCoefficient >= 7f || EndSpeedCoefficient >= 7f ? " long" : (InitialSpeedCoefficient >= 4f || EndSpeedCoefficient >= 4f ? " medium" : " short")) +
+                                           (InitialSpeedCoefficient + EndSpeedCoefficient >= 12f ? " long" : (InitialSpeedCoefficient + EndSpeedCoefficient >= 8f ? " medium" : " short")) +
                                            " distance." +
                                            (Charges > 1 ? " Can store up to <style=cIsUtility>" + Charges + "</style> charges." : "");
 

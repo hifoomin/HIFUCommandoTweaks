@@ -45,7 +45,7 @@ namespace HIFUCommandoTweaks.Skills
                 if (self is EntityStates.Commando.CommandoWeapon.FireFMJ)
                 {
                     self.damageCoefficient = Damage;
-                    self.baseDuration = 1f / 60f;
+                    self.baseDuration = 0.25f;
                     self.force = 3000f;
                 }
                 orig(self);

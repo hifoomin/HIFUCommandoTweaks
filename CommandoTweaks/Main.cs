@@ -18,7 +18,7 @@ namespace HIFUCommandoTweaks
 
         public const string PluginAuthor = "HIFU";
         public const string PluginName = "HIFUCommandoTweaks";
-        public const string PluginVersion = "1.1.7";
+        public const string PluginVersion = "1.2.0";
 
         public static ConfigFile HCTConfig;
         public static ConfigFile HCTBackupConfig;
